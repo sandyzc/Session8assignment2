@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">"Session8 assignment 2 "</string>
+    <string name="show">show</string>
+    <string name="save">save</string>
+    <string name="enter_your_city">Enter your City</string>
+    <string name="enter_your_age">Enter your age</string>
+    <string name="enter_your_numb">Enter your numb</string>
+    <string name="enter_your_name">Enter your name</string>
+</resources>

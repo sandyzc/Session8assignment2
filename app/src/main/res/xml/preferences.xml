@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="INFORMATION"
+
+        android:orderingFromXml="false" />
+    <EditTextPreference
+        android:summary="Enter Name"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:key="name" />
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="Enter Age"
+        android:key="age" />
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="Enter phone number"
+        android:key="phone" />
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="Enter city"
+        android:key="city" />
+
+
+</PreferenceScreen>

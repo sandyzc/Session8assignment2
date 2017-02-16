@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    >
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:id="@+id/name"
+        android:hint="@string/enter_your_name"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/numb"
+        android:textSize="25sp"
+        android:hint="@string/enter_your_numb"
+        android:layout_below="@id/name"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/age"
+        android:textSize="25sp"
+        android:hint="@string/enter_your_age"
+        android:layout_below="@id/numb"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/city"
+        android:textSize="25sp"
+        android:hint="@string/enter_your_city"
+        android:layout_below="@id/age"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/city"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:id="@+id/show" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/save"
+        android:background="@color/colorAccent"
+        android:text="@string/save"
+        android:layout_below="@+id/show"
+        android:layout_alignLeft="@+id/show"
+        android:layout_alignStart="@+id/show"
+        android:layout_marginTop="43dp" />
+
+
+</RelativeLayout>
